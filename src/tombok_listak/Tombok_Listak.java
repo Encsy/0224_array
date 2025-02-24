@@ -44,6 +44,40 @@ public class Tombok_Listak {
         //tömb elemszáma, hossza
         int hossz = szamok.length;
         System.out.println("A számok tömb hossza: " + hossz);
+        
+        /*
+        float[]
+        int[]
+        String[]
+        double[]
+        char[]
+        object[]
+        bool[]
+        */
+        
+        String szo = "almafa";
+        // szo[3] = a
+        char [] szo_bontva = new char [6];
+        szo_bontva = szo.toCharArray();
+        
+        /*
+        Hozzon létre egy három egész számot tároló tömböt,
+        majd számítsa ki az összegüket és írja ki az eredményt!
+        */
+        
+        int [] t = new int [3];
+        t[0] = 3;
+        t[1] = 2;
+        t[2] = 9;
+        int eredmeny = t[0] + t[1] + t[2];
+        System.out.println("Összeg: " + eredmeny);
+        
+        String [] szavak = new String [3];
+        szavak[0] = "alma";
+        szavak[1] = "körte";
+        szavak[2] = "eper";
+        
+        String[] szavak2 = {"alma", "körte", "eper"}; // 3 elemű
     }
     
 }
